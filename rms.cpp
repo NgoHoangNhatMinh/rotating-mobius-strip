@@ -37,7 +37,7 @@ int main(int argc, char **argv)
         std::cout << "Failed to create GLFW window" << std::endl;
         return -1;
     }
-    glfwMaximizeWindow(window);
+    // glfwMaximizeWindow(window);
     glfwMakeContextCurrent(window);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
@@ -156,7 +156,7 @@ int main(int argc, char **argv)
 
         // transform
         glm::mat4 model = glm::mat4(1.0f);
-        // model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
+        model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
         unsigned int modelLoc = glGetUniformLocation(ourShader.ID, "model");
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
