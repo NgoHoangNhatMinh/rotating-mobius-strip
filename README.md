@@ -9,3 +9,5 @@ cmake -S . -B build
 cmake --build build
 ./build/RotatingMobiusStrip
 ```
+
+<video src="external/demo/demo.mp4" controls autoplay loop muted playsinline width="600"></video>
