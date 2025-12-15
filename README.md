@@ -11,3 +11,6 @@ cmake --build build
 ```
 
 <video src="https://raw.githubusercontent.com/NgoHoangNhatMinh/rotating-mobius-strip/main/external/demo/demo.mp4" controls autoplay loop muted playsinline width="600"></video>
+
+https://github.com/user-attachments/assets/41ec6919-b4cb-4aae-9d44-c0d504004890
+
