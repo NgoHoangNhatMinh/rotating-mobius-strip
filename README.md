@@ -14,3 +14,9 @@ cmake --build build
 
 https://github.com/user-attachments/assets/41ec6919-b4cb-4aae-9d44-c0d504004890
 
+## Features
+
+- Click and drag the mouse to rotate the view of the Mobius strip.
+- Press "W", "A", "S", "D" keys to move the camera forward, left, backward, and right respectively.
+- Scroll to zoom in and out.
+- Press "ESC" to exit the application.
